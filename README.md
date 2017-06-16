@@ -7,4 +7,4 @@ I've implemented this according to [FIPS 197](http://nvlpubs.nist.gov/nistpubs/F
 
 I've chosen (for multiple reasons) to use predefined lookup tables for the S-boxes and MixColumns Galois field multiplication. I'm doing Galois field exponentiation for the rcon() function during key expansion.
 
-The test/example case (plaintext -> ciphertext -> plaintext) is right in the source, but I plan to use this code as I continue with the [Matasano Crypto Challenges](https://cryptopals.com).
+The test/example case (plaintext -> ciphertext -> plaintext) is right in the source, but I plan to adapt this code into a utility for use in the [Matasano Crypto Challenges](https://cryptopals.com).
